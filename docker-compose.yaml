@@ -12,3 +12,7 @@ web1:
 web2:
     build: web2
 
+mysql_perconna:
+    image: percona:latest
+    environment:
+        - MYSQL_ROOT_PASSWORD=password

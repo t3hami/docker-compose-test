@@ -14,5 +14,7 @@ web2:
 
 mysql_perconna:
     image: percona:latest
+    ports:
+        - "3306:3306"
     environment:
-        - MYSQL_ROOT_PASSWORD=password
+        - MYSQL_ROOT_PASSWORD=${PASSWORD}

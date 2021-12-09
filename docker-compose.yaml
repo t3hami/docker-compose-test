@@ -1,0 +1,14 @@
+nginx_loadbalancer:
+    build: nginx_loadbalancer
+    ports:
+        - "8080:80"
+    links:
+        - web1
+        - web2
+
+web1:
+    build: web1
+
+web2:
+    build: web2
+

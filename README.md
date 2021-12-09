@@ -13,7 +13,7 @@ mysql_percona
 
 ## Create config.env for storing environment variables and secrets
 
-``
+```
 $ car PASSWORD=password > config.env
 ```
 

@@ -14,7 +14,7 @@ mysql_percona
 ## Create config.env for storing environment variables and secrets
 
 ```
-$ cat PASSWORD=password > config.env
+$ echo PASSWORD=password > config.env
 ```
 
 ## Run
